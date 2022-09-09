@@ -1,0 +1,9 @@
+Building Litepesa
+
+See doc/readme-qt.rst for instructions on building Litepesa-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Litepesa.
+
+See doc/build-*.txt for instructions on building litepesad,
+the intended-for-services, no-graphical-interface, reference
+implementation of Litepesa.

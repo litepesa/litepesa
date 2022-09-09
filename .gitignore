@@ -1,0 +1,34 @@
+src/*.exe
+src/litepesa
+src/litepesad
+src/test_litepesa
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.litepesa
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+litepesa-qt
+Litepesa-Qt.app
+
+# Unit-tests
+Makefile.test
+litepesa-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
